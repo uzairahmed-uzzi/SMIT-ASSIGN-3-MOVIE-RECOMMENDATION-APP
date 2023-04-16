@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE RECOMMENATION APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="container">
+    <div id="firstDropDowns">
+        <div id="genreDrop" class="firstdropdown">
+            <label for="genre">Genre:</label>
+            <br>
+                      <select name="genre" id="genre">
+                        <option value="all">All</option>
+                      </select>
+        </div>
+        <div id="yearDrop" class="firstdropdown">
+            <label for="year">Year:</label>
+  <br>
+            <select name="year" id="year">
+                <option value="all">All</option>
+            </select>
+          </div>
+          <div id="languageDrop" class="firstdropdown">
+            <label for="lang">Language:</label>
+  <br>
+            <select name="lang" id="lang">
+                <option value="all">All</option>
+            </select>
+          </div>
+    </div>
+    <div id="secondDropDowns">
+        <div id="ratingDrop" class="secondDropDown">
+            <label for="rating">Rating:</label>
+  <br>
+            <select name="rating" id="rating">
+                <option value="all">All</option>
+            </select>
+          </div>
+    </div>
+    <div class="hr"> <hr></div>
+    <!-- <div id="headings">
+        <h2>RANK</h2>
+        <h2>MOVIE</h2>
+        <h2>YEAR</h2>
+    </div> -->
+    <div class="container" id="films">
+        
+    </div>
+    
+</div>
+</body>
+<script src="script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

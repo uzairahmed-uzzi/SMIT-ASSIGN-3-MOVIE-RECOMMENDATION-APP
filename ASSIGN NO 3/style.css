@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+#firstDropDowns{
+    /* margin: 2% 5% 0% 5%; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+
+}
+
+.firstdropdown{
+    width:26%;
+}
+#genre{
+    width: 100%;
+}
+#year{
+    width: 100%;
+}
+#lang{
+    width: 100%;
+}
+#secondDropDowns{
+    /* margin: 2% 5% 0% 5%; */
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    overflow-x: hidden;
+
+}
+.secondDropDown{
+    width:93%;
+}
+#rating{
+    width: 100%;
+}
+hr{
+    
+    font-weight: 900;
+
+}
+.hr{
+    width: 93%;
+    margin: 0 auto;
+    font-weight: bolder;
+    
+}
+#headings{
+    display: flex;
+    justify-content: space-around;
+}
+.hrContainer{
+    width: 100%;
+    font-weight: bolder;
+}
+p{
+    height: 5vh;
+}
+.image{
+    height: 100%;
+    position: relative;
+    top: -20px;
+    
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
